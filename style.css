@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "DS-Digital";
+  src: url("DS-DIGIT.TTF");
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "DS-Digital";
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "DS-Digital";
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 0 0 10px rgb(4, 121, 47);
+}
+
+h4 {
+  font-family: "DS-Digital";
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 0 0 10px rgb(4, 121, 47);
+  margin: 0;
+}
+
+.reloj-digital {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgb(4, 121, 47);
+}
+
+.reloj-digital-fecha,
+#time {
+  font-family: "DS-Digital";
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 0 0 10px rgb(4, 121, 47);
+  background-color: rgb(32, 51, 40);
+}
